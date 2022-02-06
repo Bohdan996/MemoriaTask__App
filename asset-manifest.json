@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MemoriaTask__App/static/css/main.ad212652.css",
+    "main.js": "/MemoriaTask__App/static/js/main.d49b1e3d.js",
+    "static/media/csv-button.svg": "/MemoriaTask__App/static/media/csv-button.9543057d4726293bd803.svg",
+    "index.html": "/MemoriaTask__App/index.html",
+    "static/media/refresh.svg": "/MemoriaTask__App/static/media/refresh.4122aeb850128f58effd.svg",
+    "static/media/parrents-icon.svg": "/MemoriaTask__App/static/media/parrents-icon.1893d294fd44b562ea9c.svg",
+    "static/media/search-icon.svg": "/MemoriaTask__App/static/media/search-icon.392b838ace9849aad965.svg",
+    "static/media/letters.svg": "/MemoriaTask__App/static/media/letters.8f15501c246cca25b71d.svg",
+    "static/media/cross.svg": "/MemoriaTask__App/static/media/cross.4837c51da2f01aca7526.svg",
+    "static/media/arrows-icon.svg": "/MemoriaTask__App/static/media/arrows-icon.86036c04d9952972255c.svg",
+    "static/media/pagination-button.svg": "/MemoriaTask__App/static/media/pagination-button.c0f6ccd84d6e8b603fc9.svg",
+    "static/media/pagination-button-left.svg": "/MemoriaTask__App/static/media/pagination-button-left.f0503d2b1e4eebe8f5d1.svg",
+    "static/media/arrow-active.svg": "/MemoriaTask__App/static/media/arrow-active.e57483a32165322a63e7.svg",
+    "static/media/arrow-down.svg": "/MemoriaTask__App/static/media/arrow-down.091b8a69a4e7c09a0c99.svg",
+    "main.ad212652.css.map": "/MemoriaTask__App/static/css/main.ad212652.css.map",
+    "main.d49b1e3d.js.map": "/MemoriaTask__App/static/js/main.d49b1e3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad212652.css",
+    "static/js/main.d49b1e3d.js"
+  ]
+}
