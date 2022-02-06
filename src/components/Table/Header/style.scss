@@ -1,0 +1,55 @@
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+
+
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  &__form {
+    box-sizing: border-box;
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+  }
+
+  &__input {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 140%;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    width: 500px;
+    outline: none;
+
+    background-image: url(../../../images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 12px;
+
+    &::placeholder {
+      color: #c0c0c0;
+    }
+  }
+
+  &__button {
+    background-image: url(../../../images/csv-button.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 98px;
+    height: 17px;
+    margin-right: 133px;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(95%);
+    }
+  }
+}

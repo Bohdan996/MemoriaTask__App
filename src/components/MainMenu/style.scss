@@ -1,0 +1,61 @@
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 0;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  &__nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__user-section {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  &__selector {
+    margin-right: 63px;
+    color: #777;
+  }
+
+  &__button {
+    margin-right: 16px;
+    transition: all 0.3s;
+    color: #777;
+
+    &:hover {
+      transform: scale(110%);
+      background-color: #a6192e;
+      color: #fff;
+    }
+  }
+
+  &__button:last-child {
+    margin-right: 0;
+  }
+
+  &__button,
+  &__selector {
+    padding: 6px 12px;
+  }
+
+  &__user-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+  }
+}
+
+.main-menu button,
+.main-menu select {
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+}

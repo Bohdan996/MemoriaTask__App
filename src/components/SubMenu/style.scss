@@ -1,0 +1,36 @@
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #5b5b5b;
+  padding: 4px;
+
+  &__close-button {
+    background-image: url(../../images/cross.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+    padding: 7px 12px 7px 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(90%);
+    }
+  }
+}
+
+.sub-menu select {
+  margin-right: 12px;
+  padding: 7px 12px;
+}
+
+.sub-menu select,
+.sub-menu button {
+  background-color: inherit;
+  color: #c0c0c0;
+
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+}

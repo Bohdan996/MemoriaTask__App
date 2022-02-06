@@ -1,0 +1,73 @@
+.table {
+  padding: 0 40px;
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 27px 14px 23px;
+  }
+
+  &__row-checkbox {
+    position: relative;
+    top: -2px;
+  }
+
+  &__row-name {
+    width: 25%;
+    min-width: 25%;
+  }
+
+  &__row-id {
+    width: 96px;
+  }
+
+  &__row-class {
+    width: 40px;
+  }
+
+  &__row-score {
+    width: 100px;
+  }
+
+  &__row-speed {
+    width: 112px;
+  }
+
+  &__row-parents {
+    width: 30%;
+  }
+
+  &__row-checkbox,
+  &__row-name,
+  &__row-id,
+  &__row-class,
+  &__row-score,
+  &__row-speed,
+  &__row-parents {
+    margin-right: 24px;
+    color: #777;
+  }
+
+  &__row button,
+  &__row div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.8;
+  }
+}
+
+.row--name-icon {
+  background-image: url(../../images/letters.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.row--arrow-icon {
+  background-image: url(../../images/arrows-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
