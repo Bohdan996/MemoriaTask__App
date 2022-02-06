@@ -11,9 +11,6 @@ const TableFooter = () => {
   const savedIndex = +(localStorage.getItem('startItemIndex') || 1);
   const pageSize = +(searchParams.get('size') || '');
 
-  console.log(typeof savedIndex);
-  console.log(typeof startItemIndex);
-
   const navigate = useNavigate();
 
   const handleSelectorChange = (e: any) => {
